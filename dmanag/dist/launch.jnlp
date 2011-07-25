@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/root/Desktop/NetBeansProjects/dmanag/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>dmanag</title>
+        <vendor>root</vendor>
+        <homepage href=""/>
+        <description>dmanag</description>
+        <description kind="short">dmanag</description>
+    </information>
+<security>
+<all-permissions/>
+</security>
+    <resources>
+<j2se version="1.5+"/>
+<jar eager="true" href="dmanag.jar" main="true"/>
+    </resources>
+    <application-desc main-class="dmanag.DownloadManager">
+    </application-desc>
+</jnlp>
